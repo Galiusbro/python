@@ -6,12 +6,12 @@ coord_x = int(input('X = '))
 coord_y = int(input('Y = '))
 
 if coord_x > 0 and coord_y > 0:
-    print('Первая четверть')
+    print('1')
 elif coord_x < 0 and coord_y > 0:
-    print('Вторая четверть')
+    print('2')
 elif coord_x < 0 and coord_y < 0:
-    print('Третья четверть')
+    print('3')
 elif coord_x > 0 and coord_y < 0:
-    print('Четвертая четверть')
+    print('4')
 else:
     print('Введено нулевое значение. Попробуйте снова')
