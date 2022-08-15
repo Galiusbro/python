@@ -9,5 +9,5 @@
 def f(x):
     return x**3
 
-list = [(i, f(i)) for i in range(1,31) if i % 2 == 0]
+list = [(f(2)) for i in range(1,31) if i % 2 == 0]
 print(list)
