@@ -9,5 +9,12 @@
 def f(x):
     return x**3
 
-list = [(f(2)) for i in range(1,31) if i % 2 == 0]
+def k(x):
+    return (x-x) - x**2
+
+list = [(i, f(i), i**2, k(i)) for i in range(1, 11) if i % 2 == 0]
 print(list)
+
+la = lambda x, y: x + y if x < y else x*y
+
+print(la(2,5))
